@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "0641f49e-cff7-4438-964d-3999e91b23eb",
+		"name": "EchoService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25411402",
+		"_collection_link": "https://galactic-station-327515.postman.co/workspace/CJPL-Backend~d48057d7-7ef9-4beb-9647-d17f09c732ba/collection/25411402-0641f49e-cff7-4438-964d-3999e91b23eb?action=share&source=collection_link&creator=25411402"
+	},
+	"item": [
+		{
+			"name": "echo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"message\": \"Hello, world!\" }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/echo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"echo"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
