@@ -1,7 +1,7 @@
-// routes/echo.js
 const Router = require('koa-router');
 const EchoService = require('../services/EchoService');
 
+// Creating a new instance of Koa router
 const router = new Router();
 
 // Handle POST requests to /echo
